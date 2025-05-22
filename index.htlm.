@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mimosa Beauty</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fffafc;
+    }
+    header {
+      background-color: #f8e1e9;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #d94f8c;
+      font-weight: bold;
+    }
+    h2, h3 {
+      color: #d94f8c;
+      text-align: center;
+    }
+    .categoria {
+      padding: 20px;
+    }
+    .produtos {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .produto {
+      border: 1px solid #f2c9d8;
+      border-radius: 10px;
+      padding: 15px;
+      width: 200px;
+      background: #fff;
+      text-align: center;
+    }
+    .produto img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 12px;
+      background-color: #d94f8c;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mimosa Beauty</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Produtos</a>
+      <a href="#">Sobre</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Beleza que encanta</h2>
+    <p style="text-align:center;">Descubra os produtos que realçam sua beleza natural com delicadeza e amor.</p>
+  </section>
+
+  <section class="categoria">
+    <h3>Nossos Produtos - Skincare</h3>
+    <div class="produtos">
+      <div class="produto">
+        <img src="https://images.unsplash.com/photo-1587502537745-84cfb2b9b748" alt="Sabonete facial">
+        <h4>Sabonete Facial</h4>
+        <p>R$ 29,90</p>
+        <a class="btn" href="#">Comprar</a>
+      </div>
+      <div class="produto">
+        <img src="https://images.unsplash.com/photo-1614603268858-0c3b5fd88e5a" alt="Creme hidratante">
+        <h4>Creme Hidratante</h4>
+        <p>R$ 39,90</p>
+        <a class="btn" href="#">Comprar</a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
